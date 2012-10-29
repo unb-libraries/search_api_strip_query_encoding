@@ -1,0 +1,15 @@
+<?php
+
+/*
+ * Implements hook_search_api_query_alter()
+ * Strip UTF-8 encoding from query keys.
+ */
+function search_api_strip_query_encoding_search_api_query_alter($query) {
+	$queryKeys=$query->getKeys();
+	foreach ($queryKeys as $keyIndex => $keyValue) {
+		if (is_int($keyIndex)) {
+			$queryKeys[$keyIndex]=utf8_decode($queryKeys[$keyIndex]);
+		}
+	}
+	$query->keys($queryKeys);
+}
