@@ -1,7 +1,8 @@
 name = Search API - Strip Query Encoding
 description = Reverse UTF-8 encoding on query. May be necessary with solr endpoint.
 package = Search
-version = 7.x-1.0-alpha1
+version = 7.x-1.01
 core = 7.x
+project status url = http://systems.hil.unb.ca/updates
 
 dependencies[] = search_api
