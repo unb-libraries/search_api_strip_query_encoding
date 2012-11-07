@@ -1,4 +1,5 @@
 name = Search API - Strip Query Encoding
+project = search_api_strip_query_encoding
 description = Reverse UTF-8 encoding on query. May be necessary with solr endpoint.
 package = Search
 version = 7.x-1.01
