@@ -4,6 +4,6 @@ description = Reverse UTF-8 encoding on query. May be necessary with solr endpoi
 package = Search
 version = 7.x-1.01
 core = 7.x
-project status url = http://systems.hil.unb.ca/updates
+project status url = http://systems.lib.unb.ca/updates
 
 dependencies[] = search_api
